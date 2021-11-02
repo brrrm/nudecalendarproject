@@ -7,8 +7,14 @@
             </div>
         </div>
 
-        <span class="sub-text">Shot by Lara Verheijden</span>
-        <br />
+        <div class="sub-text">Shot by <a href="https://www.instagram.com/laraverheijden" target="_blank">Lara Verheijden</a></div>
+
+       <ul class="nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/calendars">Calendars</a></li>
+            <li><a href="/prints">Buy art & prints</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
     </div>
 </template>
 
@@ -79,6 +85,33 @@
 
         @media (max-width : 500px) {
             font-size : 14px;
+        }
+
+        a:link,
+        a:visited{
+            color: inherit;
+            text-decoration: underline;
+        }
+    }
+
+    ul.nav{
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 1em auto;
+        justify-content: space-around;
+        max-width: 1200px;
+        font-size: 1.5em;
+        li a:link,
+        li a:visited{
+            color: #aa443c;
+            text-decoration: none;
+            padding: 0.3em 0.5em;
+            &:hover,
+            &:focus{
+                color: #fff;
+                background: #aa443c;
+            }
         }
     }
 </style>

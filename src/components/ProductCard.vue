@@ -36,7 +36,7 @@
             },
             marginBottom: {
                 type: String,
-                required: false
+                required: false,
             },
             hasImage: {
                 type: String,

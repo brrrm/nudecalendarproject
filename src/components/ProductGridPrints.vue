@@ -6,22 +6,15 @@
 
         <product-card
                 class="product-card"
-                label="The Berlin"
-                bottom-label="calendar"
+                label="The girl on the buoy"
+                bottom-label="print"
                 margin-bottom="50px"
-                price="€45,-"
-                v-on:click.native="orderProduct('frame-product-6658946007106')"
-                :image-title="'/images/products/berlijn-2022.jpg'" />
+                price="€150,-"
+                v-on:click.native="orderProduct('frame-product-6673367990338')"
+                :image-title="'/images/products/print--het-meisje-op-de-boei.jpg'" />
 
-        
-        <product-card
-                class="product-card"
-                label="Combi deal: The Berlin calendar"
-                bottom-label="2022 + 2021"
-                margin-bottom="50"
-                price="€75,-"
-                v-on:click.native="orderProduct('frame-product-6673385160770')"
-                :image-title="'/images/products/berlijn-2022-and-2021-combideal.jpg'" />
+        <div></div>
+
 
 
         <div class="year-label twenty-one">
@@ -29,45 +22,22 @@
 
         <product-card
                 class="product-card"
-                label="The Amsterdam"
-                bottom-label="calendar"
-                margin-bottom="50"
-                price="€45,-"
-                v-on:click.native="orderProduct('frame-product-4701905027138')"
-                :image-title="'/images/products/calendar-amsterdam-2021-sold-out.jpg'" />
-
-        <product-card
-                class="product-card"
-                label="The Berlin"
-                bottom-label="calendar"
-                price="€45,-"
-                v-on:click.native="orderProduct('frame-product-4701904633922')"
-                :image-title="'/images/products/berlin-2021-final.jpeg'" />
+                label="The girl in the metro"
+                bottom-label="print"
+                margin-bottom="50px"
+                price="€150,-"
+                v-on:click.native="orderProduct('frame-product-6658948726850')"
+                :image-title="'/images/products/print--meisje-in-de-metro-donker.jpg'" />
 
         
-        
-        <div class="year-label twenty">
-        </div>
-
         <product-card
                 class="product-card"
-                label="2020 Kalender"
-                price="€55,-"
-                v-on:click.native="orderProduct('frame-product-4256651706434')"
-                :image-title="'/images/products/calendar-amsterdam-2020-sold-out.jpg'" />
-        <div></div>
-
-
-        <div class="year-label">
-        </div>
-
-
-        <product-card
-                class="product-card"
-                label="2019 Kalender"
-                v-on:click.native="orderProduct('frame-product-4256713769026')"
-                :image-title="'/images/products/2019-sold-out.jpg'"
-        />
+                label="Leyla & Beer"
+                bottom-label="print"
+                margin-bottom="50px"
+                price="€230,-"
+                v-on:click.native="orderProduct('frame-product-6673379688514')"
+                :image-title="'/images/products/print--leyla-beer.jpg'" />
     </div>
 
 </template>
