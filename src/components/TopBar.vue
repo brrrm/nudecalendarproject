@@ -13,6 +13,7 @@
             <li><a href="/">Home</a></li>
             <li><a href="/calendars">Calendars</a></li>
             <li><a href="/prints">Buy art & prints</a></li>
+            <li><a href="/launch">Launch & event</a></li>
             <li><a href="/contact">Contact</a></li>
         </ul>
     </div>
@@ -98,10 +99,20 @@
         display: flex;
         list-style: none;
         padding: 0;
-        margin: 1em auto;
-        justify-content: space-around;
+        margin: 1em calc(22px - 0.5em);
+        @media (max-width: 1020px){
+        	margin: 1em calc(10px - 0.5em);
+        }
+        justify-content: flex-start;
         max-width: 1200px;
         font-size: 1.5em;
+        @media (max-width: 768px){
+        	font-size: 1em;
+        	flex-wrap: wrap;
+        	li{
+        		margin: 0 1em 0.5em 0;
+        	}
+        }
         li a:link,
         li a:visited{
             color: #aa443c;

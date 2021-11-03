@@ -8,7 +8,7 @@
         <img class="label-img" v-if="hasImage" src="/images/assets/label-langerekt-2.png">
 
         <div class="product-image-container" :class="{lesspadding: lessPadding }">
-            <img class="product-image" :src="imageTitle">
+            <img class="product-image" :src="imageTitle" />
         </div>
 
         <div class="price-label-container" :class="{transform: hasImage}">
@@ -21,7 +21,7 @@
         <img class="price-sticker" :class="{stickerposition: lessPadding }" v-if="discountSticker"
              :src="discountSticker" />
 
-        <img class="buy-now" src="../../public/images/buttons/buy-button-new.png">
+        <img class="buy-now" src="../../public/images/buttons/buy-button-new.png" />
     </div>
 </template>
 
@@ -249,5 +249,9 @@
         .cardBottom {
             margin-bottom: 42px;
         }
+    }
+    h1.red.bottom{
+    	font-size: 1.5em;
+    	color: #aa443c;
     }
 </style>

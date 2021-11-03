@@ -4,14 +4,16 @@
         <div class="year-label twenty-two">
         </div>
 
+        
         <product-card
                 class="product-card"
-                label="The girl on the buoy"
+                label="Photo print 'Leyla & Beer'"
                 bottom-label="print"
+                bottom-label-two="Limited edition of 100 + 3ap"
                 margin-bottom="50px"
-                price="€150,-"
-                v-on:click.native="orderProduct('frame-product-6673367990338')"
-                :image-title="'/images/products/print--het-meisje-op-de-boei.jpg'" />
+                price="€230,-"
+                v-on:click.native="orderProduct('frame-product-6673379688514')"
+                :image-title="'/images/products/print--leyla-beer.jpg'" />
 
         <div></div>
 
@@ -22,22 +24,23 @@
 
         <product-card
                 class="product-card"
-                label="The girl in the metro"
+                label="Photo print 'The girl on the buoy'"
                 bottom-label="print"
+                bottom-label-two="Limited edition of 50 + 1ap"
+                margin-bottom="50px"
+                price="€150,-"
+                v-on:click.native="orderProduct('frame-product-6673367990338')"
+                :image-title="'/images/products/print--het-meisje-op-de-boei.jpg'" />
+
+        <product-card
+                class="product-card"
+                label="Photo print 'The girl in the metro'"
+                bottom-label="print"
+                bottom-label-two="Limited edition of 50 + 1ap"
                 margin-bottom="50px"
                 price="€150,-"
                 v-on:click.native="orderProduct('frame-product-6658948726850')"
                 :image-title="'/images/products/print--meisje-in-de-metro-donker.jpg'" />
-
-        
-        <product-card
-                class="product-card"
-                label="Leyla & Beer"
-                bottom-label="print"
-                margin-bottom="50px"
-                price="€230,-"
-                v-on:click.native="orderProduct('frame-product-6673379688514')"
-                :image-title="'/images/products/print--leyla-beer.jpg'" />
     </div>
 
 </template>
