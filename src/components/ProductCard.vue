@@ -251,7 +251,7 @@
         }
     }
     h1.red.bottom{
-    	font-size: 1.5em;
+    	font-size: 1.33em;
     	color: #aa443c;
     }
 </style>
