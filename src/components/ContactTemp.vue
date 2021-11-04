@@ -9,7 +9,7 @@
                 Amsterdam, The Netherlands</p>
             <p><a href="https://www.instagram.com/laraverheijden/" target="_blank">Follow me on Instagram</a><br />
                 <a href="https://vimeo.com/laraverheijden/" target="_blank">Follow me on Vimeo</a><br />
-                visit my website: <a href="https://www.laraverheijden.com" target="_blank">www.laraverheijden.com</a></p>
+                visit my website: <a href="http://www.laraverheijden.com" target="_blank">www.laraverheijden.com</a></p>
         </div>
     </div>
 </template>
