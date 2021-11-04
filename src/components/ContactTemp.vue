@@ -30,6 +30,9 @@
     #contactPage{
         max-width: 800px;
         margin: 2em 22px;
+        @media (max-width: 1020px){
+        	margin: 2em 10px;
+        }
         color: #aa443c;
         p{
             margin:  1em 0;

@@ -14,7 +14,7 @@
                 v-on:click.native="orderProduct('frame-product-6673379688514')"
                 :image-title="'/images/products/print--leyla-beer.jpg'" />
 
-        <div></div>
+        <div class="spacer"></div>
 
 
 
@@ -192,7 +192,12 @@
         background-image : url("/images/assets/2020-label.png");
 
     }
-
+    @media (max-width : 780px) {
+    	.spacer{
+    		height: 0;
+    		margin-bottom: -12vw;
+    	}
+    }
     .column-fill {
         grid-column-end   : 1;
         grid-column-start : 2;
@@ -230,11 +235,14 @@
 
         @media (max-width : 780px) {
             grid-template-columns : 1fr;
-            grid-gap              : 12vw;
-            padding               : 0px;
+            grid-gap              : 0;
+            padding               : 0;
             overflow              : hidden;
             max-width             : 95%;
             margin-left           : 5px;
+            > *:not(:first-child) {
+            	margin-top: 12vw;
+            }
         }
     }
 </style>
