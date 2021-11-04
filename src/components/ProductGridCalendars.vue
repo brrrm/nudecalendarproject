@@ -270,7 +270,7 @@
         @media (max-width : 780px) {
             grid-template-columns : 1fr;
             grid-gap              : 0;
-            padding               : 0px;
+            padding               : 0;
             overflow              : hidden;
             max-width             : 95%;
             margin-left           : 5px;
