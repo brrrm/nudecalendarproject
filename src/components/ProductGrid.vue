@@ -18,7 +18,7 @@
                 class="product-card"
                 label="Combi deal: The Berlin calendar"
                 bottom-label="2022 + 2021"
-                margin-bottom="50"
+                margin-bottom="50px"
                 price="€75,-"
                 v-on:click.native="orderProduct('frame-product-6673385160770')"
                 :image-title="'/images/products/berlijn-2022-and-2021-combideal.jpg'" />
@@ -31,7 +31,7 @@
                 class="product-card"
                 label="The Amsterdam"
                 bottom-label="calendar"
-                margin-bottom="50"
+                margin-bottom="50px"
                 price="€45,-"
                 v-on:click.native="orderProduct('frame-product-4701905027138')"
                 :image-title="'/images/products/calendar-amsterdam-2021-sold-out.jpg'" />
@@ -40,6 +40,7 @@
                 class="product-card"
                 label="The Berlin"
                 bottom-label="calendar"
+                margin-bottom="50px"
                 price="€45,-"
                 v-on:click.native="orderProduct('frame-product-4701904633922')"
                 :image-title="'/images/products/berlin-2021-final.jpeg'" />
@@ -52,6 +53,7 @@
         <product-card
                 class="product-card"
                 label="2020 Kalender"
+                margin-bottom="50px"
                 price="€55,-"
                 v-on:click.native="orderProduct('frame-product-4256651706434')"
                 :image-title="'/images/products/calendar-amsterdam-2020-sold-out.jpg'" />
@@ -65,6 +67,7 @@
         <product-card
                 class="product-card"
                 label="2019 Kalender"
+                margin-bottom="50px"
                 v-on:click.native="orderProduct('frame-product-4256713769026')"
                 :image-title="'/images/products/2019-sold-out.jpg'"
         />

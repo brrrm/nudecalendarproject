@@ -18,10 +18,10 @@
                 class="product-card"
                 label="Combi deal: The Berlin calendar"
                 bottom-label="2022 + 2021"
-                margin-bottom="50"
+                margin-bottom="50px"
                 price="€75,-"
                 v-on:click.native="orderProduct('frame-product-6673385160770')"
-                :image-title="'/images/products/berlijn-2022-and-2021-combideal.jpg'" />
+                :image-title="'/images/products/berlijn-2022-and-2021-combideal2.jpg'" />
 
 
         <div class="year-label twenty-one">
@@ -29,20 +29,21 @@
 
         <product-card
                 class="product-card"
-                label="The Amsterdam"
-                bottom-label="calendar"
-                margin-bottom="50"
-                price="€45,-"
-                v-on:click.native="orderProduct('frame-product-4701905027138')"
-                :image-title="'/images/products/calendar-amsterdam-2021-sold-out.jpg'" />
-
-        <product-card
-                class="product-card"
                 label="The Berlin"
                 bottom-label="calendar"
+                margin-bottom="50px"
                 price="€45,-"
                 v-on:click.native="orderProduct('frame-product-4701904633922')"
                 :image-title="'/images/products/berlin-2021-final.jpeg'" />
+
+        <product-card
+                class="product-card"
+                label="The Amsterdam"
+                bottom-label="calendar"
+                margin-bottom="50px"
+                price="€45,-"
+                v-on:click.native="orderProduct('frame-product-4701905027138')"
+                :image-title="'/images/products/calendar-amsterdam-2021-sold-out.jpg'" />
 
         
         
@@ -51,11 +52,13 @@
 
         <product-card
                 class="product-card"
-                label="2020 Kalender"
+                label="2020 Calendar"
+                margin-bottom="20px"
                 price="€55,-"
                 v-on:click.native="orderProduct('frame-product-4256651706434')"
                 :image-title="'/images/products/calendar-amsterdam-2020-sold-out.jpg'" />
-        <div></div>
+
+        <div class="spacer" ></div>
 
 
         <div class="year-label">
@@ -64,7 +67,8 @@
 
         <product-card
                 class="product-card"
-                label="2019 Kalender"
+                label="2019 Calendar"
+                margin-bottom="20px"
                 v-on:click.native="orderProduct('frame-product-4256713769026')"
                 :image-title="'/images/products/2019-sold-out.jpg'"
         />
@@ -222,7 +226,12 @@
         background-image : url("/images/assets/2020-label.png");
 
     }
-
+    @media (max-width : 780px) {
+    	.spacer{
+    		height: 0;
+    		margin-bottom: -12vw;
+    	}
+    }
     .column-fill {
         grid-column-end   : 1;
         grid-column-start : 2;
@@ -260,11 +269,14 @@
 
         @media (max-width : 780px) {
             grid-template-columns : 1fr;
-            grid-gap              : 12vw;
+            grid-gap              : 0;
             padding               : 0px;
             overflow              : hidden;
             max-width             : 95%;
             margin-left           : 5px;
+            > *:not(:first-child) {
+            	margin-top: 12vw;
+            }
         }
     }
 </style>

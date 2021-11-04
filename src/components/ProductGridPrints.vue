@@ -8,7 +8,6 @@
         <product-card
                 class="product-card"
                 label="Photo print 'Leyla & Beer'"
-                bottom-label="print"
                 bottom-label-two="22 x 33 cm | Limited edition of 100 + 3ap | Signed and numbered"
                 margin-bottom="50px"
                 price="€230,-"
@@ -25,7 +24,6 @@
         <product-card
                 class="product-card"
                 label="Photo print 'The girl on the buoy'"
-                bottom-label="print"
                 bottom-label-two="26,5 x 40 cm | Limited edition of 50 + 1ap | Signed & numbered"
                 margin-bottom="50px"
                 price="€150,-"
@@ -35,7 +33,6 @@
         <product-card
                 class="product-card"
                 label="Photo print 'The girl in the metro'"
-                bottom-label="print"
                 bottom-label-two="26,5 x 40 cm | Limited edition of 50 + 1ap | Signed & numbered"
                 margin-bottom="50px"
                 price="€150,-"
