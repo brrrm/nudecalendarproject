@@ -21,20 +21,11 @@
                 margin-bottom="50px"
                 price="€75,-"
                 v-on:click.native="orderProduct('frame-product-6673385160770')"
-                :image-title="'/images/products/berlijn-2022-and-2021-combideal.jpg'" />
+                :image-title="'/images/products/berlijn-2022-and-2021-combideal2.jpg'" />
 
 
         <div class="year-label twenty-one">
         </div>
-
-        <product-card
-                class="product-card"
-                label="The Amsterdam"
-                bottom-label="calendar"
-                margin-bottom="50px"
-                price="€45,-"
-                v-on:click.native="orderProduct('frame-product-4701905027138')"
-                :image-title="'/images/products/calendar-amsterdam-2021-sold-out.jpg'" />
 
         <product-card
                 class="product-card"
@@ -44,6 +35,15 @@
                 price="€45,-"
                 v-on:click.native="orderProduct('frame-product-4701904633922')"
                 :image-title="'/images/products/berlin-2021-final.jpeg'" />
+
+        <product-card
+                class="product-card"
+                label="The Amsterdam"
+                bottom-label="calendar"
+                margin-bottom="50px"
+                price="€45,-"
+                v-on:click.native="orderProduct('frame-product-4701905027138')"
+                :image-title="'/images/products/calendar-amsterdam-2021-sold-out.jpg'" />
 
         
         

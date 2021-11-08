@@ -4,7 +4,7 @@
         <div id="launch-page">
         	<div class="launch amsterdam">
         		<h2>Launch Amsterdam</h2>
-        		<p>26 & 27 november</p>
+        		<p>27 & 28 november</p>
         		<p>Window exhibition walking tour Amsterdam Centre</p>
 
         		<p>Info will come soon!</p>
