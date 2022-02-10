@@ -4,9 +4,11 @@
         <div id="contactPage">
             <h1>Contact</h1>
             <p>Lara Verheijden</p>
-            <p>laartjeverheijden@gmail.com<br />
+            <p>laartjeverheijden@gmail.com <small>(Not for inquiries about orders)</small><br />
                 +31630291951<br />
                 Amsterdam, The Netherlands</p>
+            <h3>FOR INQUIRIES ABOUT ORDERS </h3>
+			<p>thenudecalendarproject.orders@gmail.com</p>
             <p><a href="https://www.instagram.com/laraverheijden/" target="_blank">Follow me on Instagram</a><br />
                 <a href="https://vimeo.com/laraverheijden/" target="_blank">Follow me on Vimeo</a><br />
                 visit my website: <a href="http://www.laraverheijden.com" target="_blank">www.laraverheijden.com</a></p>
@@ -34,6 +36,9 @@
         	margin: 2em 10px;
         }
         color: #aa443c;
+        h3{
+        	margin-bottom: -0.667em;
+        }
         p{
             margin:  1em 0;
         }

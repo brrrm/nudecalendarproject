@@ -36,6 +36,22 @@
 		{
 			id: '6673385160770', // Combi deal: The Berlin calendar 2022 + 2021
 			product: '1635848528317'
+		},
+		{
+			id: '6683772911682', // year poster Amsterdam 2022
+			product: '1638349793832'
+		},
+		{
+			id: '6683762753602', // Mama's plate (Sofie)
+			product: '1638350698466'
+		},
+		{
+			id: '6683763114050', // Mama's plate (Lauren & Gijs)
+			product: '1638350800098'
+		},
+		{
+			id: '6683763834946', // Onderbroeken
+			product: '1638351230374'
 		}
 	];
 

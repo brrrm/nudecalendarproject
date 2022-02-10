@@ -1,7 +1,8 @@
 <template>
     <div class="product-card" :class="{cardBottom: marginBottom}">
         <div class="header">
-            <h1 class="red top">{{label}} {{bottomLabel}}</h1>
+            <h1 class="red top">{{label}}</h1>
+            <h1 class="red bottom">{{bottomLabel}}</h1>
             <h1 class="red bottom">{{bottomLabelTwo}}</h1>
         </div>
 

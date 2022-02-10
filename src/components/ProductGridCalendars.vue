@@ -6,22 +6,32 @@
 
         <product-card
                 class="product-card"
-                label="The Berlin"
-                bottom-label="calendar"
+                label="The Berlin calendar"
                 margin-bottom="50px"
                 price="€45,-"
                 v-on:click.native="orderProduct('frame-product-6658946007106')"
                 :image-title="'/images/products/berlijn-2022.jpg'" />
 
+        <product-card
+                class="product-card"
+                label="Poster: year calendar Amsterdam 2022"
+                bottom-label-two="A2 size | 41 x 71 cm | Numbered | First edition of 50"
+                margin-bottom="50px"
+                price="€45,-"
+                v-on:click.native="orderProduct('frame-product-6683772911682')"
+                :image-title="'/images/products/POSTER-amsterdamse-naaktkalender-22.jpg'" />
+
+        <div class="spacer"></div>
         
         <product-card
                 class="product-card"
-                label="Combi deal: The Berlin calendar"
-                bottom-label="2022 + 2021"
+                label="Combi deal: The Berlin calendar 2022 + 2021"
                 margin-bottom="50px"
                 price="€75,-"
                 v-on:click.native="orderProduct('frame-product-6673385160770')"
                 :image-title="'/images/products/berlijn-2022-and-2021-combideal2.jpg'" />
+
+        <div class="spacer"></div>
 
 
         <div class="year-label twenty-one">
@@ -29,8 +39,7 @@
 
         <product-card
                 class="product-card"
-                label="The Berlin"
-                bottom-label="calendar"
+                label="The Berlin calendar"
                 margin-bottom="50px"
                 price="€45,-"
                 v-on:click.native="orderProduct('frame-product-4701904633922')"
@@ -38,8 +47,7 @@
 
         <product-card
                 class="product-card"
-                label="The Amsterdam"
-                bottom-label="calendar"
+                label="The Amsterdam calendar"
                 margin-bottom="50px"
                 price="€45,-"
                 v-on:click.native="orderProduct('frame-product-4701905027138')"

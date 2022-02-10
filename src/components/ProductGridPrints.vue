@@ -4,7 +4,15 @@
         <div class="year-label twenty-two">
         </div>
 
-        
+        <product-card
+                class="product-card"
+                label="POSTER: year calendar Amsterdam 2022"
+                bottom-label-two="A2 size | 41 x 71 cm | Numbered | First edition of 50"
+                margin-bottom="50px"
+                price="€45,-"
+                v-on:click.native="orderProduct('frame-product-6683772911682')"
+                :image-title="'/images/products/POSTER-amsterdamse-naaktkalender-22.jpg'" />
+
         <product-card
                 class="product-card"
                 label="Photo print 'Leyla & Beer'"
@@ -15,6 +23,40 @@
                 :image-title="'/images/products/print--leyla-beer.jpg'" />
 
         <div class="spacer"></div>
+
+        <product-card
+                class="product-card"
+                label="Mama's plate (Sofie)"
+                bottom-label-two="handmade ceramics | limited edition of 15"
+                margin-bottom="50px"
+                price="€50,-"
+                v-on:click.native="orderProduct('frame-product-6683762753602')"
+                :image-title="'/images/products/mamas-bordje-sofie.jpg'" />
+
+        <product-card
+                class="product-card"
+                label="Mama's plate (Lauren & Gijs)"
+                bottom-label-two="handmade ceramics | limited edition of 15"
+                margin-bottom="50px"
+                price="€50,-"
+                v-on:click.native="orderProduct('frame-product-6683763114050')"
+                :image-title="'/images/products/mamas-bordje-lauren-en-gijs.jpg'" />
+
+        <div class="spacer"></div>
+
+        <product-card
+                class="product-card"
+                label="Sofie slip"
+                bottom-label="(Available in: white, pink, blue, yellow and aqua blue)"
+                bottom-label-two="Silkscreened ourselves | 100% cotton"
+                margin-bottom="50px"
+                price="€19,-"
+                v-on:click.native="orderProduct('frame-product-6683763834946')"
+                :image-title="'/images/products/onderbroek-blauw2.jpg'" />
+
+        <div class="spacer"></div>
+
+
 
 
 
