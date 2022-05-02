@@ -27,3 +27,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### pushing
+rsync -avrt -e "ssh -p 1981" dist/ nudecalend@31.3.101.158:~/public_html

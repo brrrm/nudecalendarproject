@@ -3,6 +3,38 @@
         <top-bar />
 
         <product-grid />
+
+        <div class="bio" id="biography">
+            <figure>
+                <img src="/images/bio/lara_uitkrant-kopieren.jpg" alt="Lara Verheijden" />
+                <caption>Lara Verheijden (by: Sascha Heintze)</caption>
+            </figure>
+            <div class="text">	
+<h2>About Lara Verheijden & The (Amsterdam) Nude Calendar</h2>
+<p><small>(<a href="#dutch-bio">Scroll voor Nederlandse tekst naar beneden</a>)</small></p>
+<p>Lara Verheijden (1990) is a photographer and filmmaker who grew up in a small city in the Netherlands called Deventer. After highschool (Waldorf) she moved to Amsterdam to study Dutch literature and linguistics at the University of Amsterdam. After graduating she did one year of photography at the Royal Art Academy of the Hague (KABK). Starting out she focused mainly on fashion photography, however she mainly gained recognition within the art world because of her instagram page where she posted her autonomous work. </p>
+
+<p>In the summer of 2018 she got the idea of making the first Amsterdam Nude Calendar together with Mark Stadman. Through a casting call on instagram and sometimes via friends and acquaintances the models are found and portrayed all over the city in iconic places.</p>
+
+<p>In the Dutch tradition of Paul Verhoeven's movie Turkish Delight Lara photographs her subjects in a calm and open manner. With a sense of humour and subtle feeling for sensuality she investigates the tension between nudity and the public domain. An excellent example of this, is the infamous portrait of Sofie, her muse, called: 'Sofie on the ferry'.</p>
+
+<p>After three editions of the Amsterdam Nude calendar, the project made in 2021 a Berlin edition as well, called: Der Berliner Nacktkalender. The idea is to add various other cities and places in the coming years. Currently Verheijden is living and working in Amsterdam. </p>
+<br /><br /><br /><br />
+
+<h2 id="dutch-bio">Over Lara Verhijden & De (Amsterdamse) Naaktkalender</h2>
+<p>Lara Verheijden (1990) is fotografe en filmmaker, opgegroeid in Deventer en met een Vrije School achtergrond. Na de afronding van haar middelbare school is zij naar Amsterdam verhuisd en Neerlandistiek gaan studeren aan de Universiteit van Amsterdam. Hierna deed zij een jaar fotografie aan de Koninklijke Akademie van Beeldende kunsten (KABK). Begonnen als modefotograaf, verkreeg ze vooral bekendheid in het kunstcircuit vanwege haar instagram-pagina waar ze autonoom werk op plaatste.</p>
+
+<p>In de zomer van 2018 kwam zij op het idee om De Amsterdamse Naaktkalender te beginnen, die zij tot op heden maakt samen met stylist Mark Stadman. Via een casting-call op instagram en binnen hun vrienden en kennissenkring worden de modellen gevonden, die vervolgens op iconische plekken in Amsterdam (half)naakt gefotografeerd worden. </p>
+
+<p>In de Hollandse traditie van van ongecompliceerde seksualiteit (denk aan Turks Fruit, of de foto van het vrijende koppel in de tuin van Ed van der Elsken)  portretteert Lara op een kalme en open manier haar onderwerpen. Met humor en een subtiel gevoel voor erotiek zoekt zij de spanning op van alledaagse sensualiteit in de openbare ruimte. Een schitterend voorbeeld hiervan is de foto van Sofie, haar muze: 'Sofie op de pont'. </p>
+
+<p>Na drie edities van de Amsterdamse Naaktkalender, is het project in 2021 ook uitgebreid naar een Berlijnse variant (Der Berliner Nacktkalender) en in de komende jaren is het plan om hier nog nieuwe steden en plekken aan toe te voegen. Verheijden woont en werkt op dit moment in Amsterdam.</p>
+            </div>
+            <figure>
+                <img src="/images/bio/sofie-op-de-pont.jpg" alt="Lara's muze: Sofie" />
+                <caption>Sofie op de pont, 2019, Lara Verheijden</caption>
+            </figure>
+        </div>
     </div>
 </template>
 

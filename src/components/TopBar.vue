@@ -101,17 +101,17 @@
         padding: 0;
         margin: 1em calc(22px - 0.5em);
         @media (max-width: 1020px){
-        	margin: 1em calc(10px - 0.5em);
+            margin: 1em calc(10px - 0.5em);
         }
         justify-content: flex-start;
         max-width: 1200px;
         font-size: 1.5em;
         @media (max-width: 768px){
-        	font-size: 1em;
-        	flex-wrap: wrap;
-        	li{
-        		margin: 0 1em 0.5em 0;
-        	}
+            font-size: 1em;
+            flex-wrap: wrap;
+            li{
+                margin: 0 1em 0.5em 0;
+            }
         }
         li a:link,
         li a:visited{

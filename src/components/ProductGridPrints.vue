@@ -11,7 +11,7 @@
                 margin-bottom="50px"
                 price="€45,-"
                 v-on:click.native="orderProduct('frame-product-6683772911682')"
-                :image-title="'/images/products/POSTER-amsterdamse-naaktkalender-22.jpg'" />
+                :image-title="'/images/products/website-poster-leyla-sold-out.jpg'" />
 
         <product-card
                 class="product-card"
@@ -22,6 +22,7 @@
                 v-on:click.native="orderProduct('frame-product-6673379688514')"
                 :image-title="'/images/products/print--leyla-beer.jpg'" />
 
+<!--
         <div class="spacer"></div>
 
         <product-card
@@ -56,7 +57,7 @@
 
         <div class="spacer"></div>
 
-
+-->
 
 
 
@@ -144,7 +145,7 @@
     }
     .year-label {
         margin-top        : 4px;
-        background-image  : url("/images/assets/2019-label-1.png");
+        background-image  : url("../assets/images/assets/2019-label-1.png");
         background-repeat : no-repeat;
         background-size   : 100%;
         width: 150%;
@@ -224,21 +225,21 @@
     }
 
     .twenty-two {
-        background-image : url("/images/assets/2022-label.png");
+        background-image : url("../assets/images/assets/2022-label.png");
     }
     .twenty-one {
-        background-image : url("/images/assets/2021-label.png");
+        background-image : url("../assets/images/assets/2021-label.png");
     }
 
     .twenty {
-        background-image : url("/images/assets/2020-label.png");
+        background-image : url("../assets/images/assets/2020-label.png");
 
     }
     @media (max-width : 780px) {
-    	.spacer{
-    		height: 0;
-    		margin-bottom: -12vw;
-    	}
+        .spacer{
+            height: 0;
+            margin-bottom: -12vw;
+        }
     }
     .column-fill {
         grid-column-end   : 1;
@@ -283,7 +284,7 @@
             max-width             : 95%;
             margin-left           : 5px;
             > *:not(:first-child) {
-            	margin-top: 12vw;
+                margin-top: 12vw;
             }
         }
     }

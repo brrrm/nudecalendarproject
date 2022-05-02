@@ -12,7 +12,8 @@ module.exports = {
                     'css-loader',
                     'sass-loader'
                 ]
-            }
+            },
+            "no-mixed-spaces-and-tabs": 0, // disable rule
         ]
     },
 }

@@ -3,18 +3,18 @@
 /** Main font **/
 @font-face {
     font-family : 'HelveticaNeue-55';
-    src         : url('/fonts/NHaasGroteskDSStd-55Rg.svg#NHaasGroteskDSStd-55Rg') format('svg'),
-    url('/fonts/NHaasGroteskDSStd-55Rg.ttf') format('truetype'),
-    url('/fonts/NHaasGroteskDSStd-55Rg.woff') format('woff');
+    src         : url('../fonts/NHaasGroteskDSStd-55Rg.svg#NHaasGroteskDSStd-55Rg') format('svg'),
+    url('../fonts/NHaasGroteskDSStd-55Rg.ttf') format('truetype'),
+    url('../fonts/NHaasGroteskDSStd-55Rg.woff') format('woff');
     font-weight : 500;
     font-style: normal;
 }
 
 @font-face {
     font-family : 'HelveticaNeue-75';
-    src         : url('/fonts/NHaasGroteskDSStd-75Bd.svg#NHaasGroteskDSStd-75Bd') format('svg'),
-    url('/fonts/NHaasGroteskDSStd-75Bd.ttf') format('truetype'),
-    url('/fonts/NHaasGroteskDSStd-75Bd.woff') format('woff');
+    src         : url('../fonts/NHaasGroteskDSStd-75Bd.svg#NHaasGroteskDSStd-75Bd') format('svg'),
+    url('../fonts/NHaasGroteskDSStd-75Bd.ttf') format('truetype'),
+    url('../fonts/NHaasGroteskDSStd-75Bd.woff') format('woff');
     font-weight : 700;
     font-style  : normal;
 }
@@ -22,6 +22,61 @@
     box-sizing : border-box;
     padding: 0;
     margin: 0;
+}
+p{
+	margin: 1em 0;
+}
+.bio{
+	display: flex;
+	max-width: 90%;
+	line-height: 1.5em;
+	margin: 3em auto;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 2em 0;
+}
+.bio figure{
+	flex: 20% 0 0;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 2em;
+	background-color: #e1e1e1;
+}
+.bio figure img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.bio figure caption{
+	font-style: italic;
+	width: 100%;
+	display: block;
+	margin: 0.5em 0;
+	font-size: 0.9em;
+}
+.bio .text{
+	flex: 50% 0 0;
+}
+
+@media all and (max-width: 720px){
+	.bio{
+		flex-wrap: wrap;
+		padding-bottom: 20vh;
+	}
+	.bio .text{
+		flex: 100% 0 0;
+		order: 1;
+	}
+	.bio figure{
+		flex: 100% 0 0;
+		padding-bottom: 2em
+	}
+	.bio figure:nth-child(1){
+		order: 2;
+	}
+	.bio figure:nth-child(3){
+		order: 3;
+	}
 }
 /** Set the main font **/
 body {

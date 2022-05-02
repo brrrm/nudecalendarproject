@@ -5,5 +5,5 @@
 </template>
 <script src="./assets/js/products.js" />
 <style>
-    @import 'assets/styles/main.scss';
+    @import './assets/styles/main.scss';
 </style>

@@ -6,11 +6,11 @@
 
         <product-card
                 class="product-card"
-                label="The Berlin calendar"
+                label="The Berlin Calendar (1+1 free)"
                 margin-bottom="50px"
                 price="€45,-"
                 v-on:click.native="orderProduct('frame-product-6658946007106')"
-                :image-title="'/images/products/berlijn-2022.jpg'" />
+                :image-title="'/images/products/2-for-1-cover-2022.jpg'" />
 
         <product-card
                 class="product-card"
@@ -19,7 +19,7 @@
                 margin-bottom="50px"
                 price="€45,-"
                 v-on:click.native="orderProduct('frame-product-6683772911682')"
-                :image-title="'/images/products/POSTER-amsterdamse-naaktkalender-22.jpg'" />
+                :image-title="'/images/products/website-poster-leyla-sold-out.jpg'" />
 
         <div class="spacer"></div>
         
@@ -27,7 +27,7 @@
                 class="product-card"
                 label="Combi deal: The Berlin calendar 2022 + 2021"
                 margin-bottom="50px"
-                price="€75,-"
+                price="€70,-"
                 v-on:click.native="orderProduct('frame-product-6673385160770')"
                 :image-title="'/images/products/berlijn-2022-and-2021-combideal2.jpg'" />
 
@@ -144,7 +144,7 @@
     }
     .year-label {
         margin-top        : 4px;
-        background-image  : url("/images/assets/2019-label-1.png");
+        background-image  : url("../assets/images/assets/2019-label-1.png");
         background-repeat : no-repeat;
         background-size   : 100%;
         width: 150%;
@@ -224,21 +224,21 @@
     }
 
     .twenty-two {
-        background-image : url("/images/assets/2022-label.png");
+        background-image : url("../assets/images/assets/2022-label.png");
     }
     .twenty-one {
-        background-image : url("/images/assets/2021-label.png");
+        background-image : url("../assets/images/assets/2021-label.png");
     }
 
     .twenty {
-        background-image : url("/images/assets/2020-label.png");
+        background-image : url("../assets/images/assets/2020-label.png");
 
     }
     @media (max-width : 780px) {
-    	.spacer{
-    		height: 0;
-    		margin-bottom: -12vw;
-    	}
+        .spacer{
+            height: 0;
+            margin-bottom: -12vw;
+        }
     }
     .column-fill {
         grid-column-end   : 1;
@@ -283,7 +283,7 @@
             max-width             : 95%;
             margin-left           : 5px;
             > *:not(:first-child) {
-            	margin-top: 12vw;
+                margin-top: 12vw;
             }
         }
     }

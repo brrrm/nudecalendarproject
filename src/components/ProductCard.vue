@@ -79,7 +79,7 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-    .product-card {
+	.product-card {
         margin          : 20px 60px;
         transition      : all .2s ease-in-out;
         cursor          : pointer;
@@ -252,7 +252,7 @@
         }
     }
     h1.red.bottom{
-    	font-size: 1.33em;
-    	color: #aa443c;
+        font-size: 1.33em;
+        color: #aa443c;
     }
 </style>
