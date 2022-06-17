@@ -69,7 +69,7 @@
                 label="Photo print 'The girl on the buoy'"
                 bottom-label-two="26,5 x 40 cm | Limited edition of 50 + 1ap | Signed & numbered"
                 margin-bottom="50px"
-                price="€150,-"
+                price="€200,-"
                 v-on:click.native="orderProduct('frame-product-6673367990338')"
                 :image-title="'/images/products/print--het-meisje-op-de-boei.jpg'" />
 
@@ -78,7 +78,7 @@
                 label="Photo print 'The girl in the metro'"
                 bottom-label-two="26,5 x 40 cm | Limited edition of 50 + 1ap | Signed & numbered"
                 margin-bottom="50px"
-                price="€150,-"
+                price="€200,-"
                 v-on:click.native="orderProduct('frame-product-6658948726850')"
                 :image-title="'/images/products/print--meisje-in-de-metro-donker.jpg'" />
     </div>

@@ -21,7 +21,7 @@
 <p>After three editions of the Amsterdam Nude calendar, the project made in 2021 a Berlin edition as well, called: Der Berliner Nacktkalender. The idea is to add various other cities and places in the coming years. Currently Verheijden is living and working in Amsterdam. </p>
 <br /><br /><br /><br />
 
-<h2 id="dutch-bio">Over Lara Verhijden & De (Amsterdamse) Naaktkalender</h2>
+<h2 id="dutch-bio">Over Lara Verheijden & De (Amsterdamse) Naaktkalender</h2>
 <p>Lara Verheijden (1990) is fotografe en filmmaker, opgegroeid in Deventer en met een Vrije School achtergrond. Na de afronding van haar middelbare school is zij naar Amsterdam verhuisd en Neerlandistiek gaan studeren aan de Universiteit van Amsterdam. Hierna deed zij een jaar fotografie aan de Koninklijke Akademie van Beeldende kunsten (KABK). Begonnen als modefotograaf, verkreeg ze vooral bekendheid in het kunstcircuit vanwege haar instagram-pagina waar ze autonoom werk op plaatste.</p>
 
 <p>In de zomer van 2018 kwam zij op het idee om De Amsterdamse Naaktkalender te beginnen, die zij tot op heden maakt samen met stylist Mark Stadman. Via een casting-call op instagram en binnen hun vrienden en kennissenkring worden de modellen gevonden, die vervolgens op iconische plekken in Amsterdam (half)naakt gefotografeerd worden. </p>

@@ -6,11 +6,11 @@
 
         <product-card
                 class="product-card"
-                label="The Berlin Calendar (1+1 free)"
+                label="The Berlin Calendar"
                 margin-bottom="50px"
                 price="€45,-"
                 v-on:click.native="orderProduct('frame-product-6658946007106')"
-                :image-title="'/images/products/2-for-1-cover-2022.jpg'" />
+                :image-title="'/images/products/berlijn-2022.jpg'" />
 
         <product-card
                 class="product-card"
