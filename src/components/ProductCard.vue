@@ -6,23 +6,23 @@
             <h1 class="red bottom">{{bottomLabelTwo}}</h1>
         </div>
 
-        <img class="label-img" v-if="hasImage" src="/images/assets/label-langerekt-2.png">
+        <img class="label-img" v-if="hasImage" src="/images/assets/label-langerekt-2.png" loading="lazy">
 
         <div class="product-image-container" :class="{lesspadding: lessPadding }">
-            <img class="product-image" :src="imageTitle" />
+            <img class="product-image" :src="imageTitle" loading="lazy" />
         </div>
 
         <div class="price-label-container" :class="{transform: hasImage}">
             <h3 class="price-label">{{price}}</h3>
             <h4 v-if="price" class="sub-price-label">VAT included<br />
-                                                     FREE shipping in the Netherlands<br />
-                                                     €5,00 shipping in Europe</h4>
+                                                     €4,10 shipping in the Netherlands<br />
+                                                     €9,30 shipping in Europe</h4>
         </div>
 
         <img class="price-sticker" :class="{stickerposition: lessPadding }" v-if="discountSticker"
-             :src="discountSticker" />
+             :src="discountSticker" loading="lazy" />
 
-        <img class="buy-now" src="../../public/images/buttons/buy-button-new.png" />
+        <img class="buy-now" src="../../public/images/buttons/buy-button-new.png" loading="lazy" />
     </div>
 </template>
 

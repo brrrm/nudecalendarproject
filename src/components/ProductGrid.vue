@@ -1,6 +1,43 @@
 <template>
     <div class="products">
 
+        <div class="year-label twenty-three">
+        </div>
+
+        <product-card
+                class="product-card"
+                label="Lowlands Festival Calendar"
+                margin-bottom="50px"
+                price="€45,-"
+                v-on:click.native="orderProduct('frame-product-6833057398850')"
+                :image-title="'/images/products/lowlands-2023.jpg'" />
+
+        <product-card
+                class="product-card"
+                label="The Berlin Calendar"
+                margin-bottom="50px"
+                price="€45,-"
+                v-on:click.native="orderProduct('frame-product-6833058578498')"
+                :image-title="'/images/products/berlijn-2023.jpg'" />
+
+        <div class="spacer" ></div>
+
+        <product-card
+                class="product-card"
+                label="Combideal: Both 2023 Calendars"
+                margin-bottom="50px"
+                price="€80,-"
+                v-on:click.native="orderProduct('frame-product-6833059889218')"
+                :image-title="'/images/products/combideal-psd-2-x-2023-kalenders-2.jpg'" />
+
+        <product-card
+                class="product-card"
+                label="Trio Berlin Calendars"
+                margin-bottom="50px"
+                price="€100,-"
+                v-on:click.native="orderProduct('frame-product-6833060905026')"
+                :image-title="'/images/products/trio-berlin-combinatie-3-kalenders-slagschaduw-2.jpg'" />
+
         <div class="year-label twenty-two">
         </div>
 
@@ -20,19 +57,6 @@
                 price="€45,-"
                 v-on:click.native="orderProduct('frame-product-6683772911682')"
                 :image-title="'/images/products/website-poster-leyla-sold-out.jpg'" />
-
-        <div class="spacer"></div>
-
-        
-        <product-card
-                class="product-card"
-                label="Combi deal: The Berlin calendar 2022 + 2021"
-                margin-bottom="50px"
-                price="€70,-"
-                v-on:click.native="orderProduct('frame-product-6673385160770')"
-                :image-title="'/images/products/berlijn-2022-and-2021-combideal2.jpg'" />
-
-        <div class="spacer"></div>
 
 
 
@@ -227,6 +251,9 @@
         }
     }
 
+    .twenty-three {
+        background-image : url("../assets/images/assets/2023-label.png");
+    }
     .twenty-two {
         background-image : url("../assets/images/assets/2022-label.png");
     }

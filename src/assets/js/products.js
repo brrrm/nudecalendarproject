@@ -52,6 +52,22 @@
 		{
 			id: '6683763834946', // Onderbroeken
 			product: '1638351230374'
+		},
+		{
+			id: '6833058578498', // berlin calendar 2023
+			product: '1666693843738'
+		},
+		{
+			id: '6833057398850', // Lowlands calendar 2023
+			product: '1666693884758'
+		},
+		{
+			id: '6833060905026', // trio berlin 2021 2022 2023
+			product: '1666693924745'
+		},
+		{
+			id: '6833059889218', // LL en Berlin 2023 combi
+			product: '1666693978610'
 		}
 	];
 

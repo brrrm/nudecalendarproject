@@ -5,7 +5,7 @@
 
             <div class="launch amsterdam">
                 <h2>Launch Amsterdam</h2>
-                <p>27 & 28 november</p>
+                <p>27 & 28 november 2021</p>
                 <p>Window exhibition walking tour Amsterdam Centre.</p>
                 <p><a href="/images/launch/Route--sticker-and-discount.pdf" class="download" download>&#x261E; &nbsp; Download the route (PDF)</a><br />
                    <a href="#audiotour" class="download">&#x261E; &nbsp; Open the audiotour</a></p>
