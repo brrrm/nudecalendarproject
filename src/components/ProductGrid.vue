@@ -1,6 +1,37 @@
 <template>
     <div class="products">
 
+        <div class="year-label twenty-four">
+        </div>
+
+        <product-card
+                class="product-card"
+                label="The Tokyo Calendar"
+                margin-bottom="50px"
+                price="€45,-"
+                v-on:click.native="orderProduct('frame-product-8689041113412')"
+                :image-title="'/images/products/tokyo-cover-2024.jpg'" />
+
+        <product-card
+                class="product-card"
+                label="Lowlands Birthday Calendar"
+                margin-bottom="50px"
+                price="€45,-"
+                v-on:click.native="orderProduct('frame-product-8613518999876')"
+                :image-title="'/images/products/lowlands-2024.jpg'" />
+
+        <div class="spacer" ></div>
+
+        <product-card
+                class="product-card"
+                label="Combideal BOTH 2024 Calendars"
+                margin-bottom="50px"
+                price="€80,-"
+                v-on:click.native="orderProduct('frame-product-8692810252612')"
+                :image-title="'/images/products/combideal-2024-kalenders.png'" />
+
+        <div class="spacer" ></div>
+
         <div class="year-label twenty-three">
         </div>
 
@@ -251,6 +282,9 @@
         }
     }
 
+    .twenty-four {
+        background-image : url("../assets/images/assets/2024-label.png");
+    }
     .twenty-three {
         background-image : url("../assets/images/assets/2023-label.png");
     }

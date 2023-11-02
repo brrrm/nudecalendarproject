@@ -15,8 +15,8 @@
         <div class="price-label-container" :class="{transform: hasImage}">
             <h3 class="price-label">{{price}}</h3>
             <h4 v-if="price" class="sub-price-label">VAT included<br />
-                                                     €4,10 shipping in the Netherlands<br />
-                                                     €9,30 shipping in Europe</h4>
+                                                     €4,90 shipping in the Netherlands<br />
+                                                     €9,90 shipping in Europe <em>(no returns)</em></h4>
         </div>
 
         <img class="price-sticker" :class="{stickerposition: lessPadding }" v-if="discountSticker"
